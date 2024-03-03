@@ -9,7 +9,7 @@
 
 // echo "<p>Variable x outside function is: $x</p>";
 
-#The global keyword
+# The global keyword.
 $x = 5;
 $y = 10;
 
