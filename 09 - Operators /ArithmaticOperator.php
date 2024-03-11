@@ -1,16 +1,22 @@
 <?php
 
 $a = 10;
-$b = 10;
+$b = 4;
 
 $result = $a + $b;
 var_dump($result);
 
-$resultNegative = -$result;
-var_dump($resultNegative);
+$additionResult = 12 - 4;
+var_dump($additionResult);
 
-$resultPositive = +$result;
-var_dump($resultPositive);
+$multiplicationResult = 23 * 4;
+var_dump($multiplicationResult);
 
-$resultModulo = 100 % 3;
-var_dump($resultModulo);
+$divisionResult =  32 / 4;
+var_dump($divisionResult);
+
+$moduloResult = 100 % 3;
+var_dump($moduloResult);
+
+$exponentiationResult = $a ** $b;
+var_dump($exponentiationResult);
