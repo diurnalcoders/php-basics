@@ -20,4 +20,3 @@ $j = 10;
 echo $j--;
 echo "\n"; // // Decrements $x by one, then returns $x
 
-?>
